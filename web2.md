@@ -47,7 +47,7 @@ group_concat(table_name)：全部表名；
 
 4. outfile函数可以导出多行，而dumpfile只能导出一行数据 outfile函数在将数据写到文件里时有特殊的格式转换，而dumpfile则保持原数据格式
 
-5. PHP魔术引号开关：magic_quotes_gpc（或addslashes()函数），该选项启用时将自动使用"\"转义字符，以阻止SQL注入，可以用编码方式绕过
+5. PHP魔术引号开关：magic_quotes_gpc（或addslashes()函数），该选项启用时将自动使用"\\"转义字符，以阻止SQL注入，可以用编码方式绕过
 
 ## SQL盲注：
 语法参考：
@@ -74,11 +74,11 @@ SQL DNSlog注入：高权限但有限制条件的情况下使用，有DnslogSqli
 
 ## SQLi BypassWAF：
 编码绕过：%23（注释符#）,%0A（换行符）等
-	如 id=-1 union%23a%0Aselect 1,2,3#
+	`如 id=-1 union%23a%0Aselect 1,2,3#
 	这样等同于
 	union #a
 	select 1,2,3#
-	（a是用作干扰字符）
+	（a是用作干扰字符）`
 
 大小写
 
@@ -97,7 +97,7 @@ SQL DNSlog注入：高权限但有限制条件的情况下使用，有DnslogSqli
 其他：Fuzz/数据库特性/垃圾数据溢出/HTTP参数污染 等
 
 HTTP参数污染：
-	如 ?id=1/**&id=-1 union select 1,2,database()--+*/
+	如 `?id=1/**&id=-1 union select 1,2,database()--+*/`
 	利用服务器接收参数的特性和注释符，使得真正的payload绕过WAF被服务器接收
 
 ### SQLMAP bypass技巧：
@@ -105,4 +105,4 @@ SQLMAP默认的UA会暴露自身，可以使用--random-agent将UA随机化
 
 当目标开启了CC防护，sqlmap会因为速度过快而被拦截，这时可以使用 代理池/降低速度/修改特征为搜索引擎爬虫 等方法绕过拦截
 
-如： --user-agent="Mozilla/5.0 ...（省略）... /spider.html)"
+如： `--user-agent="Mozilla/5.0 ...（省略）... /spider.html)"`
