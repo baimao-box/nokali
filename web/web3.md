@@ -56,6 +56,6 @@
     ```
 
 ## SQLMAP bypass：
-1. SQLMAP默认的UA会暴露自身，可以使用--random-agent将UA随机化
+1. SQLMAP默认的UA会暴露自身，可以使用`--random-agent`将UA随机化
 
-2. 当目标开启了CC防护，sqlmap会因为速度过快而被拦截，这时可以使用 代理池/降低速度/修改特征为搜索引擎爬虫 等方法绕过拦截 如： --user-agent="Mozilla/5.0 ...（省略）... /spider.html)"
+2. 当目标开启了CC防护，sqlmap会因为速度过快而被拦截，这时可以使用 `代理池/降低速度/修改特征为搜索引擎爬虫` 等方法绕过拦截 如： `--user-agent="Mozilla/5.0 ...（省略）... /spider.html)"`
