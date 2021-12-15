@@ -12,6 +12,8 @@
 
 [【Web渗透技术】一些文件上传的知识笔记](./web/web4)
 
+[【Web学习记录】upload labs通关记录](./web/web5)
+
 ### Pwn
 
 [【页面施工中】施工ing](./pwn/pwn1)
