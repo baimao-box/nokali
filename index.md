@@ -16,6 +16,8 @@
 
 [【Web渗透技术】一些XSS的知识笔记](./web/web6)
 
+[【Web学习记录】xss labs通关记录](./web/web7)
+
 ### Pwn
 
 [【栈溢出】一道简单的ROP-1](./pwn/pwn1)
