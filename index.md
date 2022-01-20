@@ -18,6 +18,8 @@
 
 [【Web学习记录】xss labs通关记录](./web/web7)
 
+[【Web渗透技术】一些CSRF和SSRF的知识笔记](./web/web8)
+
 ### Pwn
 
 [【栈溢出】一道简单的ROP-1](./pwn/pwn1)
