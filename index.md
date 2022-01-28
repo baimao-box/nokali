@@ -20,6 +20,10 @@
 
 [【Web渗透技术】一些CSRF和SSRF的知识笔记](./web/web8)
 
+[【Web渗透技术】一些RCE的知识笔记](./web/web9)
+
+[【Web渗透技术】一些文件安全的知识笔记](./web/web10)
+
 ### Pwn
 
 [【栈溢出】一道简单的ROP-1](./pwn/pwn1)
