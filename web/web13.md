@@ -18,7 +18,7 @@
 
 ### 触发：unserialize函数的变量可控，文件中存在可利用的类，类中有魔术方法
 
-### 参考：`https://www.cnblogs.com/20175211lyz/p/11403397.html`
+### 参考：<https://www.cnblogs.com/20175211lyz/p/11403397.html>
 
 ```
 __construct()    创建对象时触发

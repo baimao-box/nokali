@@ -1,7 +1,7 @@
 # Web逻辑越权 2
 
 ## 关于支付安全
-参考：`https://www.secpulse.com/archives/67080.html`
+参考：<https://www.secpulse.com/archives/67080.html>
 
 商品购买一般流程：
 

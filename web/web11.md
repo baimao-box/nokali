@@ -59,7 +59,7 @@ tips：在检测垂直越权的时候，可以在本地搭建一个环境，然�
 ## 关于登录安全：
 有时密码直接在前端加密然后再提交，可能是md5一类的形式，因此爆破也需要对payload进行相应的加密（burp的payload设置的Payload Processing功能提供了hash加密的能力）
 
-`https://github.com/huyuanzhi2/password_brute_dictionary`
+<https://github.com/huyuanzhi2/password_brute_dictionary>
 
 用来爆破的弱口令字典
 

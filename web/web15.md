@@ -67,7 +67,7 @@ RCE：安装了expect扩展的php环境，可以使用expect当作协议来执�
 
 关于xxe绕过
 
-参考：`https://www.cnblogs.com/20175211lyz/p/11413335.html`
+参考：<https://www.cnblogs.com/20175211lyz/p/11413335.html>
 
 
 
